@@ -12,16 +12,15 @@ con = sqlite3.connect("address_book.db")
 curs = con.cursor()
 
 # create table
-'''
-curs.execute("""CREATE TABLE addresses(
-            first_name text, 
+
+curs.execute("""CREATE TABLE IF NOT EXISTS addresses(
+            first_name text,
             last_name text,
             address text,
             city text,
             state text,
             zip_code integer
             )""")
-'''
 
 # create text box
 f_name = Entry(root, width=30)
@@ -73,14 +72,8 @@ def submit():
     # create cursor
     curs = con.cursor()
 
-    # commit changes
-    con.commit()
-
-    # close connection
-    con.close()
-
     # insert into the table
-    curs.execute("INSERT INTO addresses VALUES (:f_name, :l_name, :address, :city, :state, :zip_code)",
+    curs.execute('INSERT INTO addresses VALUES (:f_name, :l_name, :address, :city, :state, :zip_code)',
                  {
                      'f_name': f_name.get(),
                      'l_name': l_name.get(),
@@ -89,6 +82,11 @@ def submit():
                      'state': state.get(),
                      'zip_code': zip_code.get()
                  })
+    # commit changes
+    con.commit()
+
+    # close connection
+    con.close()
 
     # clear the text boxes
     f_name.delete(0, END)
@@ -99,8 +97,48 @@ def submit():
     city.delete(0, END)
 
 
+# create query function
+def query():
+    global curs, con
+    # create or connect to database
+    con = sqlite3.connect("address_book.db")
+
+    # create cursor
+    curs = con.cursor()
+
+    # Query the database
+    curs.execute("SELECT *, oid FROM addresses")
+    records = curs.fetchall()
+
+    # print(records)
+    print_records = ""
+    for record in records:
+        print_records += str(record) + "\n"
+
+    # Window for records
+    window = Toplevel()
+    window.title("Records")
+
+    Label(
+        window, text="the record is displayed like this : (First name, Last name, Address, City, Zipe_code, oid)"
+    ).pack()
+    Label(window, text=print_records).pack()
+
+    # commit changes
+    con.commit()
+
+    # close connection
+    con.close()
+
+
+# submit button
 submit_button = Button(root, text="Add record to data_base", command=submit)
 submit_button.grid(row=6, column=0, columnspan=2, pady=10, padx=10, ipadx=100)
+
+
+# query button
+query_button = Button(root, text="Show records", command=query)
+query_button.grid(row=7, columnspan=2, column=0, padx=10, pady=10, ipadx=173)
 
 # commit changes
 con.commit()
