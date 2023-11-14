@@ -1,0 +1,1741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b404e08e-0af2-416b-8587-4280b5e78fff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Trydjango.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7c247b7d-5013-4169-a857-b46bdc35f8ef.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/accounts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/accounts/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/accounts/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/accounts/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/accounts/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/accounts/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/accounts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/accounts/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/css/autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/css/changelists.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/css/dark_mode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/css/forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/css/nav_sidebar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/css/responsive_rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/css/rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/css/vendor/select2/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/css/vendor/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/css/widgets.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/img/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/img/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/img/calendar-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/img/gis/move_vertex_off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/img/gis/move_vertex_on.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/img/icon-addlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/img/icon-alert.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/img/icon-calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/img/icon-changelink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/img/icon-clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/img/icon-deletelink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/img/icon-no.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/img/icon-unknown-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/img/icon-unknown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/img/icon-viewlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/img/icon-yes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/img/inline-delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/img/selector-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/img/sorting-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/img/tooltag-add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/img/tooltag-arrowright.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/SelectBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/SelectFilter2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/cancel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/change_form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/filters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/inlines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/jquery.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/nav_sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/popup_response.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/prepopulate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/prepopulate_init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/urlify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/bn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/dsb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/hsb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/hy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/ne.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/ps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/tk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/select2.full.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/xregexp/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/css/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/css/gijgo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/css/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/css/nice-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/css/slicknav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/css/style.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/css/theme-default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/css/theme-default.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/css/themify-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/Flaticon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/Flaticon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/Flaticon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/Flaticon.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/gijgo-material.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/gijgo-material.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/gijgo-material.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/gijgo-material.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/themify.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/themify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/themify.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/fonts/themify.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/about/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/about/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/banner/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/banner/banner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/banner/banner3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/banner/bradcam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/banner/bradcam2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/banner/bradcam3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/banner/bradcam4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/banner/destination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/banner/newsletter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/banner/testmonial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/banner/video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/blog/author.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/blog/blog_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/blog/blog_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/blog/blog_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/blog/blog_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/blog/learn_about_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/blog/single_blog_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/blog/single_blog_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/blog/single_blog_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/blog/single_blog_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/blog/single_blog_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/blog/slide_thumb_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/comment/comment_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/comment/comment_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/comment/comment_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/creative_mind/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/destination/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/destination/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/destination/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/destination/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/destination/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/destination/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/details-img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/details-img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/details-img/details_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/disabled-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/disabled-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/f1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/f2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/f3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/f4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/f5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/f6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/f7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/f8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/g1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/g2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/g3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/g4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/g5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/g6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/g7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/g8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/primary-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/primary-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/success-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/elements/success-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/footer_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/instagram/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/instagram/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/instagram/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/instagram/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/instagram/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/instagram/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/place/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/place/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/place/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/place/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/place/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/place/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/post/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/post/post_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/post/post_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/post/post_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/post/post_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/post/post_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/post/post_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/post/post_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/post/post_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/post/post_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/post/post_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/post/preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/prise/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/prise/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/prise/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/property/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/property/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/property/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/property/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/property/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/property/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/service/about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/svg_icon/1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/svg_icon/2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/svg_icon/3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/svg_icon/quote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/team/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/team/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/team/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/testmonial/author.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/trip/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/trip/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/trip/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/works/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/works/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/works/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/img/works/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/ajax-form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/gijgo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/imagesloaded.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/jquery.ajaxchimp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/jquery.counterup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/jquery.scrollUp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/jquery.slicknav.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/mail-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/nice-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/range.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/scrollIt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/vendor/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/vendor/modernizr-3.5.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/js/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_blog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_blog_part.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_bradcam.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_btn.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_contact_action.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_counter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_destination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_elements.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_newsletter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_offers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_popular_place.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_section_title.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_service.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_slick-nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_team.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_testmonial.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_travel_variation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_varriable.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_video.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/_where_to_go.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/scss/theme-default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/css/normalize.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/js/jquery-1.11.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/js/jquery.nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shAutoloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushAS3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushAppleScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushBash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushCSharp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushColdFusion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushCpp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushCss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushDelphi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushDiff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushErlang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushGroovy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushJScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushJava.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushJavaFX.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushPerl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushPhp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushPlain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushPowerShell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushPython.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushRuby.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushSass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushScala.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushSql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushVb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shBrushXml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/scripts/shLegacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/styles/shCore.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/styles/shCoreDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/styles/shCoreDjango.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/styles/shCoreEclipse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/styles/shCoreEmacs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/styles/shCoreFadeToGrey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/styles/shCoreMDUltra.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/styles/shCoreMidnight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/styles/shCoreRDark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/styles/shThemeDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/styles/shThemeDjango.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/styles/shThemeEclipse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/styles/shThemeEmacs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/styles/shThemeFadeToGrey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/styles/shThemeMDUltra.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/styles/shThemeMidnight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/assets/travel doc/syntax-highlighter/styles/shThemeRDark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/calc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/calc/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/calc/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/calc/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/calc/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/calc/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/calc/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/calc/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/media/pictures/alger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/media/pictures/alger_0vVRzIR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/media/pictures/alger_eZCLxwe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/media/pictures/alger_zD3CNVI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/media/pictures/bouzariaa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/media/pictures/oran.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/media/pictures/oran_mYFyIJU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/media/pictures/oran_pHC2Njt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/media/pictures/tlemcen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/media/pictures/tlemcen_7wiRRLR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/media/pictures/tlemcen_C8j5apz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/media/pictures/tlemcen_JYCXdEm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/oussama2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/oussama2/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/oussama2/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/oussama2/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/oussama2/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/python" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/css/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/css/gijgo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/css/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/css/nice-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/css/slicknav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/css/style.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/css/theme-default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/css/theme-default.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/css/themify-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/Flaticon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/Flaticon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/Flaticon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/Flaticon.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/gijgo-material.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/gijgo-material.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/gijgo-material.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/gijgo-material.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/themify.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/themify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/themify.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/fonts/themify.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/about/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/about/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/banner/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/banner/banner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/banner/banner3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/banner/bradcam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/banner/bradcam2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/banner/bradcam3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/banner/bradcam4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/banner/destination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/banner/newsletter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/banner/testmonial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/banner/video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/blog/author.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/blog/blog_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/blog/blog_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/blog/blog_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/blog/blog_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/blog/learn_about_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/blog/single_blog_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/blog/single_blog_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/blog/single_blog_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/blog/single_blog_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/blog/single_blog_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/blog/slide_thumb_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/comment/comment_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/comment/comment_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/comment/comment_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/creative_mind/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/destination/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/destination/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/destination/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/destination/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/destination/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/destination/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/details-img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/details-img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/details-img/details_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/disabled-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/disabled-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/f1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/f2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/f3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/f4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/f5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/f6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/f7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/f8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/g1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/g2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/g3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/g4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/g5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/g6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/g7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/g8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/primary-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/primary-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/success-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/elements/success-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/footer_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/instagram/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/instagram/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/instagram/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/instagram/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/instagram/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/instagram/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/place/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/place/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/place/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/place/alger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/place/oran.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/place/telemcen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/post/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/post/post_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/post/post_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/post/post_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/post/post_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/post/post_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/post/post_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/post/post_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/post/post_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/post/post_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/post/post_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/post/preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/prise/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/prise/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/prise/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/property/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/property/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/property/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/property/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/property/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/property/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/service/about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/svg_icon/1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/svg_icon/2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/svg_icon/3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/svg_icon/quote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/team/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/team/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/team/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/testmonial/author.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/trip/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/trip/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/trip/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/works/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/works/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/works/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/img/works/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/ajax-form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/gijgo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/imagesloaded.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/jquery.ajaxchimp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/jquery.counterup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/jquery.scrollUp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/jquery.slicknav.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/mail-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/nice-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/range.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/scrollIt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/vendor/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/vendor/modernizr-3.5.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/js/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_blog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_blog_part.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_bradcam.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_btn.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_contact_action.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_counter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_destination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_elements.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_newsletter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_offers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_popular_place.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_section_title.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_service.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_slick-nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_team.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_testmonial.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_travel_variation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_varriable.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_video.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/_where_to_go.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/scss/theme-default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/css/normalize.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/js/jquery-1.11.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/js/jquery.nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shAutoloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushAS3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushAppleScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushBash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushCSharp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushColdFusion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushCpp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushCss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushDelphi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushDiff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushErlang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushGroovy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushJScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushJava.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushJavaFX.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushPerl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushPhp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushPlain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushPowerShell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushPython.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushRuby.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushSass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushScala.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushSql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushVb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shBrushXml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/scripts/shLegacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/styles/shCore.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/styles/shCoreDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/styles/shCoreDjango.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/styles/shCoreEclipse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/styles/shCoreEmacs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/styles/shCoreFadeToGrey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/styles/shCoreMDUltra.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/styles/shCoreMidnight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/styles/shCoreRDark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/styles/shThemeDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/styles/shThemeDjango.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/styles/shThemeEclipse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/styles/shThemeEmacs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/styles/shThemeFadeToGrey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/styles/shThemeMDUltra.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/styles/shThemeMidnight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/static/travel doc/syntax-highlighter/styles/shThemeRDark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/templates/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/travello/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/travello/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/travello/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/travello/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/travello/migrations/0002_destination_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/travello/migrations/0003_alter_destination_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/travello/migrations/0004_remove_destination_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/travello/migrations/0005_destination_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/travello/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/travello/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/travello/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/travello/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama2/travello/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/oussama3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/oussama3/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/oussama3/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/oussama3/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/pages/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/pages/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/pages/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/pages/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/pages/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/pages/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/pages/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/products/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/products/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/products/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/products/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/products/migrations/0002_product_available.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/products/migrations/0003_auto_20231027_1709.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/products/migrations/0004_auto_20231027_1710.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/products/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/products/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/products/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/products/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oussama3/templates/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/_distutils_hack/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/_distutils_hack/override.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/_virtualenv.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/_virtualenv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/distutils-precedence.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-23.2.1.dist-info/AUTHORS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-23.2.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-23.2.1.dist-info/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-23.2.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-23.2.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-23.2.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-23.2.1.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-23.2.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-23.2.1.virtualenv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/__pip-runner__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/build_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/cli/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/cli/autocompletion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/cli/base_command.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/cli/cmdoptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/cli/command_context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/cli/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/cli/main_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/cli/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/cli/progress_bars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/cli/req_command.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/cli/spinners.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/cli/status_codes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/completion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/configuration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/debug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/download.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/freeze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/hash.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/help.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/inspect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/install.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/show.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/uninstall.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/configuration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/distributions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/distributions/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/distributions/installed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/distributions/sdist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/distributions/wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/index/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/index/collector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/index/package_finder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/index/sources.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/locations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/locations/_distutils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/locations/_sysconfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/locations/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/metadata/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/metadata/_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/metadata/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/metadata/importlib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/metadata/importlib/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/metadata/importlib/_dists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/metadata/importlib/_envs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/metadata/pkg_resources.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/models/candidate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/models/direct_url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/models/format_control.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/models/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/models/installation_report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/models/link.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/models/scheme.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/models/search_scope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/models/selection_prefs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/models/target_python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/models/wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/network/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/network/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/network/cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/network/download.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/network/lazy_wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/network/session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/network/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/network/xmlrpc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/build/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/build/build_tracker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/build/metadata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/build/metadata_editable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/build/metadata_legacy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/build/wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/build/wheel_editable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/build/wheel_legacy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/freeze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/install/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/install/editable_legacy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/install/wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/prepare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/pyproject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/req/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/req/constructors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/req/req_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/req/req_install.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/req/req_set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/req/req_uninstall.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/resolution/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/resolution/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/resolution/legacy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/resolution/legacy/resolver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/resolution/resolvelib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/resolution/resolvelib/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/resolution/resolvelib/candidates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/resolution/resolvelib/factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/resolution/resolvelib/found_candidates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/resolution/resolvelib/provider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/resolution/resolvelib/reporter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/resolution/resolvelib/requirements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/resolution/resolvelib/resolver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/self_outdated_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/_jaraco_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/appdirs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/compatibility_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/datetime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/deprecation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/direct_url_helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/egg_link.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/encoding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/entrypoints.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/filesystem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/filetypes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/glibc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/hashes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/inject_securetransport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/packaging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/setuptools_build.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/subprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/temp_dir.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/unpacking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/virtualenv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/vcs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/vcs/bazaar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/vcs/git.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/vcs/mercurial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/vcs/subversion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/vcs/versioncontrol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/wheel_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/_cmd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/adapter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/caches/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/filewrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/heuristics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/serialize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/cachecontrol/wrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/certifi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/certifi/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/certifi/cacert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/certifi/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/big5freq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/big5prober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/chardistribution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/charsetgroupprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/charsetprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/cli/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/cli/chardetect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/codingstatemachine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/codingstatemachinedict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/cp949prober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/enums.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/escprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/escsm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/eucjpprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/euckrfreq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/euckrprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/euctwfreq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/euctwprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/gb2312freq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/gb2312prober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/hebrewprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/jisfreq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/johabfreq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/johabprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/jpcntx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/langbulgarianmodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/langgreekmodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/langhebrewmodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/langhungarianmodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/langrussianmodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/langthaimodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/langturkishmodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/latin1prober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/macromanprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/mbcharsetprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/mbcsgroupprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/mbcssm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/metadata/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/metadata/languages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/resultdict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/sbcharsetprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/sbcsgroupprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/sjisprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/universaldetector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/utf1632prober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/utf8prober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/chardet/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/colorama/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/colorama/ansi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/colorama/ansitowin32.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/colorama/initialise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/colorama/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/colorama/tests/ansi_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/colorama/tests/ansitowin32_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/colorama/tests/initialise_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/colorama/tests/isatty_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/colorama/tests/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/colorama/tests/winterm_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/colorama/win32.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/colorama/winterm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/locators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/manifest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/markers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/metadata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/resources.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/scripts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/t32.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/t64-arm.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/t64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/w32.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/w64-arm.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/w64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distlib/wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distro/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distro/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/distro/distro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/idna/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/idna/codec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/idna/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/idna/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/idna/idnadata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/idna/intranges.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/idna/package_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/idna/uts46data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/msgpack/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/msgpack/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/msgpack/ext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/msgpack/fallback.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/__about__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/_manylinux.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/_musllinux.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/_structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/markers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/requirements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/specifiers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/packaging/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pkg_resources/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/platformdirs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/platformdirs/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/platformdirs/android.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/platformdirs/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/platformdirs/macos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/platformdirs/unix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/platformdirs/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/platformdirs/windows.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/cmdline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/console.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/filters/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/formatter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/formatters/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/formatters/_mapping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/formatters/bbcode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/formatters/groff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/formatters/html.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/formatters/img.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/formatters/irc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/formatters/latex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/formatters/other.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/formatters/pangomarkup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/formatters/rtf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/formatters/svg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/formatters/terminal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/formatters/terminal256.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/lexer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/lexers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/lexers/_mapping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/lexers/python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/modeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/plugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/regexopt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/scanner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/sphinxext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/style.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/styles/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/token.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/unistring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pygments/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pyparsing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pyparsing/actions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pyparsing/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pyparsing/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pyparsing/diagram/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pyparsing/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pyparsing/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pyparsing/results.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pyparsing/testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pyparsing/unicode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pyparsing/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pyproject_hooks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pyproject_hooks/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pyproject_hooks/_impl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pyproject_hooks/_in_process/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/__version__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/_internal_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/adapters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/certs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/cookies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/help.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/hooks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/packages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/sessions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/status_codes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/requests/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/resolvelib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/resolvelib/compat/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/resolvelib/compat/collections_abc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/resolvelib/providers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/resolvelib/reporters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/resolvelib/resolvers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/resolvelib/structs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/_cell_widths.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/_emoji_codes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/_emoji_replace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/_export_format.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/_extension.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/_fileno.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/_inspect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/_log_render.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/_loop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/_null_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/_palettes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/_pick.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/_ratio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/_spinners.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/_stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/_timer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/_win32_console.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/_windows.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/_windows_renderer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/_wrap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/abc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/align.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/ansi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/bar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/box.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/cells.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/color.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/color_triplet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/columns.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/console.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/constrain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/containers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/control.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/default_styles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/diagnose.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/emoji.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/file_proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/filesize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/highlighter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/jupyter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/layout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/live.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/live_render.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/markup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/measure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/padding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/pager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/palette.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/panel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/pretty.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/progress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/progress_bar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/prompt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/protocol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/region.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/repr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/rule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/scope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/segment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/spinner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/status.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/style.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/styled.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/syntax.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/terminal_theme.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/theme.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/themes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/traceback.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/rich/tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/six.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/tenacity/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/tenacity/_asyncio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/tenacity/_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/tenacity/after.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/tenacity/before.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/tenacity/before_sleep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/tenacity/nap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/tenacity/retry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/tenacity/stop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/tenacity/tornadoweb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/tenacity/wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/tomli/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/tomli/_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/tomli/_re.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/tomli/_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/typing_extensions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/_collections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/connectionpool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_appengine_environ.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/bindings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/low_level.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/appengine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/ntlmpool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/pyopenssl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/securetransport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/socks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/filepost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/backports/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/backports/makefile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/backports/weakref_finalize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/packages/six.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/poolmanager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/retry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/ssl_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/ssl_match_hostname.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/ssltransport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/timeout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/urllib3/util/wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/vendor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/webencodings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/webencodings/labels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/webencodings/mklabels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/webencodings/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_vendor/webencodings/x_user_defined.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/importlib_resources/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/importlib_resources/_adapters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/importlib_resources/_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/importlib_resources/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/importlib_resources/_itertools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/importlib_resources/_legacy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/importlib_resources/abc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/importlib_resources/readers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/importlib_resources/simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/jaraco/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/jaraco/context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/jaraco/functools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/jaraco/text/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/more_itertools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/more_itertools/more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/more_itertools/recipes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/_elffile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/_manylinux.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/_musllinux.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/_structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/_tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/markers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/metadata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/requirements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/specifiers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/packaging/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/platformdirs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/platformdirs/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/platformdirs/android.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/platformdirs/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/platformdirs/macos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/platformdirs/unix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/platformdirs/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/platformdirs/windows.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/typing_extensions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/_vendor/zipp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/extern/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-68.2.2.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-68.2.2.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-68.2.2.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-68.2.2.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-68.2.2.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-68.2.2.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-68.2.2.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-68.2.2.virtualenv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_core_metadata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/_collections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/_functools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/_macos_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/_msvccompiler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/archive_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/bcppcompiler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/ccompiler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/cmd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/_framework_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/bdist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/bdist_dumb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/bdist_rpm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/build.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/build_clib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/build_ext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/build_py.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/build_scripts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/clean.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/install.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/install_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/install_egg_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/install_headers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/install_lib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/install_scripts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/py37compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/sdist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/command/upload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/cygwinccompiler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/debug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/dep_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/dir_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/dist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/extension.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/fancy_getopt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/file_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/filelist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/msvc9compiler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/msvccompiler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/py38compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/py39compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/spawn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/sysconfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/text_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/unixccompiler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils/versionpredicate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_entry_points.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_imp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_importlib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_itertools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_normalization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_reqs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/importlib_metadata/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/importlib_metadata/_adapters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/importlib_metadata/_collections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/importlib_metadata/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/importlib_metadata/_functools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/importlib_metadata/_itertools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/importlib_metadata/_meta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/importlib_metadata/_py39compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/importlib_metadata/_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/importlib_resources/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/importlib_resources/_adapters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/importlib_resources/_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/importlib_resources/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/importlib_resources/_itertools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/importlib_resources/_legacy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/importlib_resources/abc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/importlib_resources/readers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/importlib_resources/simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/jaraco/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/jaraco/context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/jaraco/functools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/jaraco/text/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/more_itertools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/more_itertools/more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/more_itertools/recipes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/ordered_set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/packaging/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/packaging/_elffile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/packaging/_manylinux.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/packaging/_musllinux.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/packaging/_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/packaging/_structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/packaging/_tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/packaging/markers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/packaging/metadata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/packaging/requirements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/packaging/specifiers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/packaging/tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/packaging/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/packaging/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/tomli/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/tomli/_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/tomli/_re.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/tomli/_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/typing_extensions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_vendor/zipp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/archive_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/build_meta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/cli-32.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/cli-64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/cli-arm64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/cli.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/_requirestxt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/alias.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/bdist_egg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/bdist_rpm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/build.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/build_clib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/build_ext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/build_py.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/develop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/dist_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/easy_install.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/editable_wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/egg_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/install.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/install_egg_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/install_lib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/install_scripts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/launcher manifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/rotate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/saveopts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/sdist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/setopt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/upload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/upload_docs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/config/_apply_pyprojecttoml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/config/_validate_pyproject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/config/_validate_pyproject/error_reporting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/config/_validate_pyproject/extra_validations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/config/_validate_pyproject/fastjsonschema_exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/config/_validate_pyproject/fastjsonschema_validations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/config/_validate_pyproject/formats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/config/expand.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/config/pyprojecttoml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/config/setupcfg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/dep_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/depends.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/discovery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/dist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/extension.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/extern/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/glob.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/gui-32.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/gui-64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/gui-arm64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/gui.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/installer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/launch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/monkey.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/msvc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/namespaces.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/package_index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/py312compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/sandbox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/script (dev).tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/script.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/unicode_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/warnings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/windows_support.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel-0.41.2.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel-0.41.2.dist-info/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel-0.41.2.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel-0.41.2.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel-0.41.2.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel-0.41.2.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel-0.41.2.virtualenv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/_setuptools_logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/bdist_wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/cli/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/cli/convert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/cli/pack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/cli/tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/cli/unpack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/macosx_libfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/metadata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/vendored/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/vendored/packaging/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/vendored/packaging/_elffile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/vendored/packaging/_manylinux.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/vendored/packaging/_musllinux.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/vendored/packaging/_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/vendored/packaging/_structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/vendored/packaging/_tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/vendored/packaging/markers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/vendored/packaging/requirements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/vendored/packaging/specifiers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/vendored/packaging/tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/vendored/packaging/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/vendored/packaging/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/vendored/vendor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wheel/wheelfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate.fish" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate.nu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate_this.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pip-3.8.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pip.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pip3.8.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pip3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pydoc.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/python.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/wheel-3.8.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/wheel.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/wheel3.8.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/wheel3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tkinter/address_book.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tkinter/calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tkinter/login 2.0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tkinter/new_window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tryout/chatbot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tryout/file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tryout/tryout.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2Wx0of9BzZsBoksUn1k4j0qzO0m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/PycharmProjects/1st project/Trydjango",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "terminal",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PycharmProjects\1st project\Trydjango\oussama2\assets\img\place" />
+      <recent name="E:\PycharmProjects\1st project\Trydjango\oussama2\static\img\place" />
+      <recent name="E:\PycharmProjects\1st project\Trydjango\oussama2\static" />
+      <recent name="E:\PycharmProjects\1st project\Trydjango\oussama2\templates" />
+      <recent name="E:\PycharmProjects\1st project\Trydjango\oussama2\assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.chess">
+    <configuration name="chess" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="1st project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../tryout" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../tryout/chess.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Trydjango" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oussama2/travello" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oussama2/travello/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.chess" />
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b404e08e-0af2-416b-8587-4280b5e78fff" name="Changes" comment="" />
+      <created>1697659124766</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697659124766</updated>
+      <workItem from="1697659128279" duration="498000" />
+      <workItem from="1697719846290" duration="188000" />
+      <workItem from="1697723893811" duration="2957000" />
+      <workItem from="1697735720647" duration="2850000" />
+      <workItem from="1697739223596" duration="552000" />
+      <workItem from="1697740659411" duration="3912000" />
+      <workItem from="1697745539760" duration="1032000" />
+      <workItem from="1697747977749" duration="647000" />
+      <workItem from="1697791393250" duration="12100000" />
+      <workItem from="1697829534162" duration="1705000" />
+      <workItem from="1697874138139" duration="16513000" />
+      <workItem from="1698090792429" duration="2020000" />
+      <workItem from="1698251954755" duration="9098000" />
+      <workItem from="1698314695936" duration="264000" />
+      <workItem from="1698315242183" duration="303000" />
+      <workItem from="1698316001339" duration="5269000" />
+      <workItem from="1698337445560" duration="2772000" />
+      <workItem from="1698340438322" duration="1496000" />
+      <workItem from="1698399198698" duration="2845000" />
+      <workItem from="1698418581426" duration="3291000" />
+      <workItem from="1699998613257" duration="327000" />
+      <workItem from="1699999090095" duration="1088000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Trydjango$views.coverage" NAME="views Coverage Results" MODIFIED="1697890117801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oussama2/travello" />
+    <SUITE FILE_PATH="coverage/Trydjango$chess.coverage" NAME="chess Coverage Results" MODIFIED="1698330336850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tryout" />
+  </component>
+</project>
